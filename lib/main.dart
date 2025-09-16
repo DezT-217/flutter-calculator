@@ -101,7 +101,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                   Row(children: ['7', '8', '9', '÷'].map(_buildButton).toList()),
                   Row(children: ['4', '5', '6', '×'].map(_buildButton).toList()),
                   Row(children: ['1', '2', '3', '-'].map(_buildButton).toList()),
-                  Row(children: ['0', 'C', '=', '+'].map((label) {
+                  Row(children: ['0', 'C', '=', '+', '%'].map((label) {
                     return _buildButton(label, color: label == 'C' ? Colors.red : null);
                   }).toList()),
                 ],
